@@ -10,7 +10,7 @@ Gem::Specification.new do |s|
   s.homepage    = 'http://rubygems.org/gems/aasm_actionable'
   s.license     = 'MIT'
 
-  s.add_runtime_dependency 'rails', ['~> 4.0']
-  s.add_runtime_dependency 'aasm', ['~> 3.0']
-  s.add_runtime_dependency 'pundit', ['~> 0.2.1']
+  s.add_runtime_dependency 'rails'
+  s.add_runtime_dependency 'aasm'
+  s.add_runtime_dependency 'pundit'
 end
